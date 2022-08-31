@@ -8,7 +8,7 @@ body {
     /* テキスト長押しの選択ボックスを無効化 */
     user-select: none;
     -webkit-user-select: none;
-    overscroll-behavior-y: contain;
+    overscroll-behavior-y: none;
 }
 
 #main {

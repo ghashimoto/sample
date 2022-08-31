@@ -1,0 +1,37 @@
+body {
+    background-color: #ebf5f2;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /* リンク長押しのポップアップを無効化 */
+    -webkit-touch-callout: none;
+    /* テキスト長押しの選択ボックスを無効化 */
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+#main {
+    background-color: #ee0c0c;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 100%;
+}
+
+#header {
+    background-color: #1e90ff;
+    height: 10%;
+}
+
+.content {
+    background-color: #90ee90;
+    height: 80%;
+    overflow-y: auto;
+}
+
+#footer {
+    background-color: #00ff7f;
+    height: 10%;
+}

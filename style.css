@@ -8,7 +8,6 @@ body {
     /* テキスト長押しの選択ボックスを無効化 */
     user-select: none;
     -webkit-user-select: none;
-    overflow: hidden;
 }
 
 #main {
@@ -19,8 +18,6 @@ body {
     transform: translate(-50%, -50%);
     height: 100%;
     width: 100%;
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
 }
 
 #header {
@@ -32,7 +29,6 @@ body {
     background-color: #90ee90;
     height: 80%;
     overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
 }
 
 #footer {
